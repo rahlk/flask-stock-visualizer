@@ -1,3 +1,4 @@
+#! ./local/bin/python -B 
 from flask import Flask, render_template, jsonify
 from stock_scraper import get_data
 import os
@@ -13,7 +14,7 @@ def data():
 
 @app.route("/")
 def index():
-    return render_template("index.html")
+    return render_template("visualize.html")
 
 
 if __name__ == '__main__':

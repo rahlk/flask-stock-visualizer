@@ -1,22 +1,25 @@
 {
-  "name": "flask-stock-visualizer",
+  "name": "Visualizer",
   "version": "0.0.0",
   "authors": [
-    "Michael Herman <michael@realpython.com>"
+    "Rahul Krishna"
   ],
   "main": "app.py",
-  "license": "MIT",
+  "license": "",
   "private": true,
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "static/bower_components"
   ],
   "dependencies": {
     "bootstrap": "3.2.0",
     "jquery": "2.1.1",
     "d3": "3.4.11"
-  }
+  },
+  "homepage": "http://rkrsn.us",
+  "description": ""
 }
